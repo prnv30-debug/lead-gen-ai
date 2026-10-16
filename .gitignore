@@ -4,10 +4,6 @@ client/node_modules
 package-lock.json
 client/package-lock.json
 
-# Production builds
-dist
-client/dist
-
 # Environment variables & local credentials
 .env
 .env.local
