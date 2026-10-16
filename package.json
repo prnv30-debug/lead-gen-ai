@@ -10,7 +10,8 @@
     "client": "npm --prefix client run dev",
     "dev:client": "npm --prefix client run dev",
     "dev": "concurrently -n \"SERVER,CLIENT\" -c \"magenta.bold,cyan.bold\" \"node --watch server/index.js\" \"npm --prefix client run dev\"",
-    "build:client": "npm --prefix client run build",
+    "build": "npm run build --workspace=client",
+    "build:client": "npm run build --workspace=client",
     "start": "node server/index.js"
   },
   "dependencies": {
