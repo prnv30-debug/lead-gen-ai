@@ -1,0 +1,45 @@
+# Dependencies
+node_modules
+client/node_modules
+
+# Production builds
+dist
+client/dist
+
+# Environment variables & local credentials
+.env
+.env.local
+.env.*.local
+
+# Vercel deployment folder
+.vercel
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+
+# Non-project C++ course artifacts
+css311_pa1_source
+css311_pa1_source_code.zip
+cuda_stats.cu
+generate_data
+generate_data.cpp
+mpi_stats.cpp
+new.cpp
+openmp_stats
+openmp_stats.cpp
+plot_results.py
+results.csv
+run_benchmarks.sh
+sequential_stats
+sequential_stats.cpp
+stats_common.hpp
+FINAL_SUBMISSION.md
+PA2_Report.md
+css311_pa1_README.md
+Makefile
+data/
+figs/
+.venv/
